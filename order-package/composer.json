@@ -1,12 +1,10 @@
 {
-    "name": "example-app/order-package",
-    "version": "0.0.1",
+    "name": "malfunction13/laravel-presentation-package",
     "description": "For presentation purposes",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "ExampleApp\\OrderPackage\\": "src/"
-        }
+            "Malfunction13\\LaravelPresentationPackage\\": "order-package/src/"        }
     },
     "authors": [
         {
@@ -21,8 +19,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ExampleApp\\OrderPackage\\Laravel\\Provider\\PackageServiceProvider",
-                "ExampleApp\\OrderPackage\\Laravel\\Provider\\PackageEventServiceProvider"
+                "Malfunction13\\OrderPackage\\Laravel\\Provider\\PackageServiceProvider",
+                "Malfunction13\\OrderPackage\\Laravel\\Provider\\PackageEventServiceProvider"
             ]
         }
     }
