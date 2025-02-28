@@ -4,7 +4,8 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Malfunction13\\LaravelPresentationPackage\\": "order-package/src/"        }
+            "ExampleApp\\": "src/"
+        }
     },
     "authors": [
         {
@@ -19,8 +20,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Malfunction13\\OrderPackage\\Laravel\\Provider\\PackageServiceProvider",
-                "Malfunction13\\OrderPackage\\Laravel\\Provider\\PackageEventServiceProvider"
+                "ExampleApp\\Laravel\\Provider\\PackageServiceProvider",
+                "ExampleApp\\Laravel\\Provider\\PackageEventServiceProvider"
             ]
         }
     }
