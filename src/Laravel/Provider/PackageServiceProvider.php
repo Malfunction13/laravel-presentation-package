@@ -48,7 +48,7 @@ class PackageServiceProvider  extends ServiceProvider
     {
 
         // set automatic publishing of configuration
-        $this->mergeConfigFrom(__DIR__ . '/../config/order-config.php', 'order-package');
+        $this->mergeConfigFrom(__DIR__ . '/../config/order-config.php', 'order-package.order-config');
         $this->mergeConfigFrom(__DIR__ . '/../config/etc-config.php', 'order-package.etc-config');
 
         // here we can register each of our services or so-called modules (large logical chunks responsible for specific
