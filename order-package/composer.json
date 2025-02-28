@@ -1,0 +1,29 @@
+{
+    "name": "example-app/order-package",
+    "version": "0.0.1",
+    "description": "For presentation purposes",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ExampleApp\\OrderPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Grigoryan",
+            "email": "david.grigoryan@diva-e.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "saloonphp/laravel-plugin": "^3.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ExampleApp\\OrderPackage\\Laravel\\Provider\\PackageServiceProvider",
+                "ExampleApp\\OrderPackage\\Laravel\\Provider\\PackageEventServiceProvider"
+            ]
+        }
+    }
+}
