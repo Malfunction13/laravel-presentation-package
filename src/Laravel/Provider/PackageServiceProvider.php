@@ -25,7 +25,8 @@ class PackageServiceProvider  extends ServiceProvider
         // this allows us to publish our configuration and exposes it to our app by copying the package config
         // to our application's config folder
         $this->publishes([
-            __DIR__ . '/../config/order-package.php' => $this->app->configPath('order-package/order-package.php'),
+            __DIR__ . '/../config/order-config.php' => $this->app->configPath('order-package/order-config.php'),
+            __DIR__ . '/../config/etc-config.php' => $this->app->configPath('order-package/etc-config.php'),
         ]);
 
         // we can also set up auto publishing through composer.json "scripts" in the post-install-cmd and post-update-cmd
@@ -47,7 +48,8 @@ class PackageServiceProvider  extends ServiceProvider
     {
 
         // set automatic publishing of configuration
-        $this->mergeConfigFrom(__DIR__ . '/../config/order-package.php',  'order-package');
+        $this->mergeConfigFrom(__DIR__ . '/../config/order-config.php', 'order-package');
+        $this->mergeConfigFrom(__DIR__ . '/../config/etc-config.php', 'etc-config');
 
         // here we can register each of our services or so-called modules (large logical chunks responsible for specific
         // tasks dictated by the business requirement
