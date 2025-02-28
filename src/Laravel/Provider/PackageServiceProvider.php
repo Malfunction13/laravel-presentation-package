@@ -66,7 +66,7 @@ class PackageServiceProvider  extends ServiceProvider
     {
         // we can bind interfaces to concrete implementations
         // via binding directive
-        $this->app->bind(OrderTransformerOverrideContract::class, config('order-package.order.transformer'));
+        $this->app->bind(OrderTransformerOverrideContract::class, config('order-package.order-config.order.transformer'));
         // via singleton
         $this->app->singleton(OrderRepositoryContract::class, OrderRepository::class);
 
