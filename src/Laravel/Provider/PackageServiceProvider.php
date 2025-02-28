@@ -49,7 +49,7 @@ class PackageServiceProvider  extends ServiceProvider
 
         // set automatic publishing of configuration
         $this->mergeConfigFrom(__DIR__ . '/../config/order-config.php', 'order-package');
-        $this->mergeConfigFrom(__DIR__ . '/../config/etc-config.php', 'etc-config');
+        $this->mergeConfigFrom(__DIR__ . '/../config/etc-config.php', 'order-package.etc-config');
 
         // here we can register each of our services or so-called modules (large logical chunks responsible for specific
         // tasks dictated by the business requirement
@@ -75,6 +75,6 @@ class PackageServiceProvider  extends ServiceProvider
         // we can provide values to be injected into our classes instantiated by Laravel container from configs
         $this->app->when(OrderService::class)
             ->needs('$warehouseIdsMapping')
-            ->giveConfig('order-package.warehouse_ids_mapping');
+            ->giveConfig('order-package.order-config.warehouse_ids_mapping');
     }
 }
