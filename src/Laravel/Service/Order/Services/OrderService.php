@@ -1,13 +1,13 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Service\Order\Services;
+namespace ExampleApp\Laravel\Service\Order\Services;
 
-use ExampleApp\OrderPackage\Laravel\Service\Order\Contracts\OrderRepositoryContract;
-use ExampleApp\OrderPackage\Laravel\Service\Order\DTO\CreateOrderDTO;
-use ExampleApp\OrderPackage\Laravel\Service\Order\Enums\OrderState;
-use ExampleApp\OrderPackage\Laravel\Service\Order\Enums\OrderType;
-use ExampleApp\OrderPackage\Laravel\Service\Order\Transformers\OrderTransformer;
-use ExampleApp\OrderPackage\Laravel\Service\Order\Transformers\OrderTransformerOverrideContract;
+use ExampleApp\Laravel\Service\Order\Contracts\OrderRepositoryContract;
+use ExampleApp\Laravel\Service\Order\DTO\CreateOrderDTO;
+use ExampleApp\Laravel\Service\Order\Enums\OrderState;
+use ExampleApp\Laravel\Service\Order\Enums\OrderType;
+use ExampleApp\Laravel\Service\Order\Transformers\OrderTransformer;
+use ExampleApp\Laravel\Service\Order\Transformers\OrderTransformerOverrideContract;
 
 class OrderService
 {

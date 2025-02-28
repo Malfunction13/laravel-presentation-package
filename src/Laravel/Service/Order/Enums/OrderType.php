@@ -1,6 +1,6 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Service\Order\Enums;
+namespace ExampleApp\Laravel\Service\Order\Enums;
 enum OrderType: string
 {
     case MAIN = 'MAIN';

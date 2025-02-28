@@ -1,9 +1,9 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Http\Controllers;
+namespace ExampleApp\Laravel\Http\Controllers;
 
-use ExampleApp\OrderPackage\Laravel\Http\Requests\CreateOrderRequest;
-use ExampleApp\OrderPackage\Laravel\Service\Order\Services\OrderService;
+use ExampleApp\Laravel\Http\Requests\CreateOrderRequest;
+use ExampleApp\Laravel\Service\Order\Services\OrderService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Http\Requests;
+namespace ExampleApp\Laravel\Http\Requests;
 
-use ExampleApp\OrderPackage\Laravel\Service\Order\DTO\CreateOrderDTO;
+use ExampleApp\Laravel\Service\Order\DTO\CreateOrderDTO;
 use Illuminate\Foundation\Http\FormRequest;
 
 class CreateOrderRequest extends FormRequest

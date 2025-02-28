@@ -1,8 +1,8 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Service\Order\Contracts;
+namespace ExampleApp\Laravel\Service\Order\Contracts;
 
-use ExampleApp\OrderPackage\Laravel\Models\Order;
+use ExampleApp\Laravel\Models\Order;
 use Illuminate\Database\Eloquent\Collection;
 
 interface OrderRepositoryContract

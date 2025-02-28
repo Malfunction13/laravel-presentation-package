@@ -1,6 +1,6 @@
 <?php
 
-use ExampleApp\OrderPackage\Laravel\Service\Order\Transformers\OrderTransformerOverrideDefault;
+use ExampleApp\Laravel\Service\Order\Transformers\OrderTransformerOverrideDefault;
 
 return [
     'routes' => [

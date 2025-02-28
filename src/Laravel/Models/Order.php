@@ -1,10 +1,10 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Models;
+namespace ExampleApp\Laravel\Models;
 
 
-use ExampleApp\OrderPackage\Laravel\Service\Order\Enums\OrderState;
-use ExampleApp\OrderPackage\Laravel\Service\Order\Enums\OrderType;
+use ExampleApp\Laravel\Service\Order\Enums\OrderState;
+use ExampleApp\Laravel\Service\Order\Enums\OrderType;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Carbon;

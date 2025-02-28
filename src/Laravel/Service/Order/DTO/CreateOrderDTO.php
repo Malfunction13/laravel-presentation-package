@@ -1,6 +1,6 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Service\Order\DTO;
+namespace ExampleApp\Laravel\Service\Order\DTO;
 
 class CreateOrderDTO
 {

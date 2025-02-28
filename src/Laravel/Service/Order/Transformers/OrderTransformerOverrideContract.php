@@ -1,6 +1,6 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Service\Order\Transformers;
+namespace ExampleApp\Laravel\Service\Order\Transformers;
 
 interface OrderTransformerOverrideContract
 {

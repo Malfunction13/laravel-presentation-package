@@ -1,11 +1,11 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Repositories;
+namespace ExampleApp\Laravel\Repositories;
 
 
-use ExampleApp\OrderPackage\Laravel\Models\Order;
-use ExampleApp\OrderPackage\Laravel\Service\Order\Contracts\OrderRepositoryContract;
-use ExampleApp\OrderPackage\Laravel\Service\Order\Events\OrderStateChanged;
+use ExampleApp\Laravel\Models\Order;
+use ExampleApp\Laravel\Service\Order\Contracts\OrderRepositoryContract;
+use ExampleApp\Laravel\Service\Order\Events\OrderStateChanged;
 use Illuminate\Contracts\Events\Dispatcher as EventDispatcher;
 use Illuminate\Database\Eloquent\Collection;
 

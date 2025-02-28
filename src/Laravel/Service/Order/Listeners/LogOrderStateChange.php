@@ -1,8 +1,8 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Service\Order\Listeners;
+namespace ExampleApp\Laravel\Service\Order\Listeners;
 
-use ExampleApp\OrderPackage\Laravel\Service\Order\Events\OrderStateChanged;
+use ExampleApp\Laravel\Service\Order\Events\OrderStateChanged;
 use Psr\Log\LoggerInterface;
 
 class LogOrderStateChange

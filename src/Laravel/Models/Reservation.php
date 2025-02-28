@@ -1,6 +1,6 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Models;
+namespace ExampleApp\Laravel\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

@@ -1,8 +1,8 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Service\Order\Transformers;
+namespace ExampleApp\Laravel\Service\Order\Transformers;
 
-use ExampleApp\OrderPackage\Laravel\Models\Order;
+use ExampleApp\Laravel\Models\Order;
 
 class OrderTransformer
 {

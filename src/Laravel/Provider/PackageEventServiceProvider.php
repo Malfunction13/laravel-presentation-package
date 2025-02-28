@@ -1,9 +1,9 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Provider;
+namespace ExampleApp\Laravel\Provider;
 
-use ExampleApp\OrderPackage\Laravel\Service\Order\Events\OrderStateChanged;
-use ExampleApp\OrderPackage\Laravel\Service\Order\Listeners\LogOrderStateChange;
+use ExampleApp\Laravel\Service\Order\Events\OrderStateChanged;
+use ExampleApp\Laravel\Service\Order\Listeners\LogOrderStateChange;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as BaseServiceProvider;
 
 // This Provider is responsible for registering events and mapping them to listeners (handlers)

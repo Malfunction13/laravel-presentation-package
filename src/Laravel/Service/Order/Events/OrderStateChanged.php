@@ -1,10 +1,10 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Service\Order\Events;
+namespace ExampleApp\Laravel\Service\Order\Events;
 
 
-use ExampleApp\OrderPackage\Laravel\Service\Order\Enums\OrderState;
-use ExampleApp\OrderPackage\Laravel\Service\Order\Enums\OrderType;
+use ExampleApp\Laravel\Service\Order\Enums\OrderState;
+use ExampleApp\Laravel\Service\Order\Enums\OrderType;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

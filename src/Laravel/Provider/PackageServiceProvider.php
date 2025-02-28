@@ -1,11 +1,11 @@
 <?php
 
-namespace ExampleApp\OrderPackage\Laravel\Provider;
+namespace ExampleApp\Laravel\Provider;
 
-use ExampleApp\OrderPackage\Laravel\Service\Order\Contracts\OrderRepositoryContract;
-use ExampleApp\OrderPackage\Laravel\Service\Order\Services\OrderService;
-use ExampleApp\OrderPackage\Laravel\Service\Order\Transformers\OrderTransformerOverrideContract;
-use ExampleApp\OrderPackage\Laravel\Repositories\OrderRepository;
+use ExampleApp\Laravel\Service\Order\Contracts\OrderRepositoryContract;
+use ExampleApp\Laravel\Service\Order\Services\OrderService;
+use ExampleApp\Laravel\Service\Order\Transformers\OrderTransformerOverrideContract;
+use ExampleApp\Laravel\Repositories\OrderRepository;
 use Illuminate\Support\ServiceProvider;
 
 
